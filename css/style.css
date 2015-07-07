@@ -1,0 +1,292 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  font-family: 'Poiret One';
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.main-logo {
+  cursor: pointer;
+  position: fixed;
+  width: 50px;
+  top: 30px;
+  right: 30px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.logo-row {
+  padding-top: 30px;
+  padding-bottom: 120px;
+}
+
+footer.page-footer {
+  background-color: #52B7FF;
+}
+
+.section-icon, .section-header {
+  color: #DD7A79;
+}
+
+.section-header {
+  letter-spacing: 15px;
+}
+
+.name {
+  font-size: 7em;
+  margin-top: 10vh;
+}
+
+.name .char1 {
+  padding-right: 15px;
+}
+.name .char2 {
+  padding-right: 25px;
+}
+.name .char3 {
+  padding-right: 25px;
+}
+.name .char4 {
+  padding-right: 25px;
+}
+.name .char5 {
+  padding-right: 15px;
+}
+.name .char6 {
+  padding-right: 25px;
+}
+.name .char7 {
+  padding-right: 25px;
+}
+
+
+.tagline {
+  font-size: 3em;
+  margin-top: 30px;
+}
+.tagline .char1 {
+  padding-right: 15px;
+}
+.tagline .char2 {
+  padding-right: 20px;
+}
+.tagline .char3 {
+  padding-right: 20px;
+}
+.tagline .char4 {
+  padding-right: 20px;
+}
+.tagline .char5 {
+  padding-right: 20px;
+}
+.tagline .char6 {
+  padding-right: 20px;
+}
+.tagline .char7 {
+  padding-right: 20px;
+}
+.tagline .char8 {
+  padding-right: 20px;
+}
+.tagline .char9 {
+  padding-right: 20px;
+}
+.tagline .char10 {
+  padding-right: 20px;
+}
+.tagline .char11 {
+  padding-right: 20px;
+}
+.tagline .char12 {
+  padding-right: 10px;
+}
+.tagline .char13 {
+  padding-right: 20px;
+}
+.tagline .char14 {
+  padding-right: 20px;
+}
+.tagline .char15 {
+  padding-right: 20px;
+}
+.tagline .char16 {
+  padding-right: 20px;
+}
+.tagline .char17 {
+  padding-right: 20px;
+}
+.tagline .char18 {
+  padding-right: 20px;
+}
+.tagline .char19 {
+  padding-right: 20px;
+}
+.tagline .char20 {
+  padding-right: 20px;
+}
+.tagline .char21 {
+  padding-right: 20px;
+}
+.tagline .char22 {
+  padding-right: 20px;
+}
+.tagline .char23 {
+  padding-right: 20px;
+}
+.tagline .char24 {
+  padding-right: 20px;
+}
+
+
+
+.tagline-two {
+  font-size: 1.8em;
+}
+.tagline-two .char1 {
+  padding-right: 15px;
+  margin-left: -25px;
+}
+.tagline-two .char2 {
+  padding-right: 20px;
+}
+.tagline-two .char3 {
+  padding-right: 20px;
+}
+.tagline-two .char4 {
+  padding-right: 20px;
+}
+.tagline-two .char5 {
+  padding-right: 10px;
+}
+.tagline-two .char6 {
+  padding-right: 20px;
+}
+.tagline-two .char7 {
+  padding-right: 20px;
+}
+.tagline-two .char8 {
+  padding-right: 20px;
+}
+.tagline-two .char9 {
+  padding-right: 20px;
+}
+.tagline-two .char10 {
+  padding-right: 20px;
+}
+.tagline-two .char11 {
+  padding-right: 20px;
+}
+.tagline-two .char12 {
+  padding-right: 15px;
+}
+.tagline-two .char13 {
+  padding-right: 15px;
+}
+.tagline-two .char14 {
+  padding-right: 20px;
+}
+.tagline-two .char15 {
+  padding-right: 20px;
+}
+.tagline-two .char16 {
+  padding-right: 20px;
+}
+.tagline-two .char17 {
+  padding-right: 20px;
+}
+.tagline-two .char18 {
+  padding-right: 20px;
+}
+.tagline-two .char19 {
+  padding-right: 20px;
+}
+.tagline-two .char20 {
+  padding-right: 20px;
+}
+.tagline-two .char21 {
+  padding-right: 10px;
+}
+.tagline-two .char22 {
+  padding-right: 20px;
+}
+.tagline-two .char23 {
+  padding-right: 20px;
+}
+.tagline-two .char24 {
+  padding-right: 20px;
+}
+.tagline-two .char25 {
+  padding-right: 20px;
+}
+.tagline-two .char26 {
+  padding-right: 20px;
+}
+.tagline-two .char27 {
+  padding-right: 20px;
+}
+.tagline-two .char28 {
+  padding-right: 20px;
+}
+.tagline-two .char29 {
+  padding-right: 20px;
+}
+
+.header {
+  color: #DD7A79;
+}
+
+#index-banner {
+  height: 100vh;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
