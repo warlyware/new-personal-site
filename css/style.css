@@ -6,8 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+
+
 body {
   font-family: 'Poiret One';
+  letter-spacing: 2px;
 }
 
 p {
@@ -16,6 +19,23 @@ p {
 
 .button-collapse {
   color: #26a69a;
+}
+
+.contact-info {
+  font-size: 1.3em;
+}
+
+.contact-me {
+  margin-top: 0pc;
+}
+
+.feel-free {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-copyright a {
+  color: #DD7A79;
 }
 
 .main-logo {
@@ -35,8 +55,29 @@ p {
   padding-bottom: 120px;
 }
 
+.soc-logo {
+  cursor: pointer;
+  width: 70px;
+}
+
+.soc-top {
+  margin-left: 15px;
+  width: 30px !important;
+  float: left;
+}
+
 footer.page-footer {
   background-color: #52B7FF;
+}
+
+.top-container {
+  position: relative;
+}
+
+.header-wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .section-icon, .section-header {
@@ -44,12 +85,13 @@ footer.page-footer {
 }
 
 .section-header {
-  letter-spacing: 15px;
+  font-size: 2em;
+  letter-spacing: 12px;
 }
 
 .name {
   font-size: 7em;
-  margin-top: 10vh;
+  margin-top: 12vh;
 }
 
 .name .char1 {
@@ -59,191 +101,30 @@ footer.page-footer {
   padding-right: 25px;
 }
 .name .char3 {
-  padding-right: 25px;
+  padding-right: 20px;
 }
 .name .char4 {
-  padding-right: 25px;
+  padding-right: 15px;
 }
 .name .char5 {
-  padding-right: 15px;
+  padding-right: 10px;
 }
 .name .char6 {
-  padding-right: 25px;
+  padding-right: 15px;
 }
 .name .char7 {
-  padding-right: 25px;
+  padding-right: 15px;
 }
-
 
 .tagline {
-  font-size: 3em;
+  font-size: 2em;
   margin-top: 30px;
+  letter-spacing: 12px;  
 }
-.tagline .char1 {
-  padding-right: 15px;
-}
-.tagline .char2 {
-  padding-right: 20px;
-}
-.tagline .char3 {
-  padding-right: 20px;
-}
-.tagline .char4 {
-  padding-right: 20px;
-}
-.tagline .char5 {
-  padding-right: 20px;
-}
-.tagline .char6 {
-  padding-right: 20px;
-}
-.tagline .char7 {
-  padding-right: 20px;
-}
-.tagline .char8 {
-  padding-right: 20px;
-}
-.tagline .char9 {
-  padding-right: 20px;
-}
-.tagline .char10 {
-  padding-right: 20px;
-}
-.tagline .char11 {
-  padding-right: 20px;
-}
-.tagline .char12 {
-  padding-right: 10px;
-}
-.tagline .char13 {
-  padding-right: 20px;
-}
-.tagline .char14 {
-  padding-right: 20px;
-}
-.tagline .char15 {
-  padding-right: 20px;
-}
-.tagline .char16 {
-  padding-right: 20px;
-}
-.tagline .char17 {
-  padding-right: 20px;
-}
-.tagline .char18 {
-  padding-right: 20px;
-}
-.tagline .char19 {
-  padding-right: 20px;
-}
-.tagline .char20 {
-  padding-right: 20px;
-}
-.tagline .char21 {
-  padding-right: 20px;
-}
-.tagline .char22 {
-  padding-right: 20px;
-}
-.tagline .char23 {
-  padding-right: 20px;
-}
-.tagline .char24 {
-  padding-right: 20px;
-}
-
-
 
 .tagline-two {
-  font-size: 1.8em;
-}
-.tagline-two .char1 {
-  padding-right: 15px;
-  margin-left: -25px;
-}
-.tagline-two .char2 {
-  padding-right: 20px;
-}
-.tagline-two .char3 {
-  padding-right: 20px;
-}
-.tagline-two .char4 {
-  padding-right: 20px;
-}
-.tagline-two .char5 {
-  padding-right: 10px;
-}
-.tagline-two .char6 {
-  padding-right: 20px;
-}
-.tagline-two .char7 {
-  padding-right: 20px;
-}
-.tagline-two .char8 {
-  padding-right: 20px;
-}
-.tagline-two .char9 {
-  padding-right: 20px;
-}
-.tagline-two .char10 {
-  padding-right: 20px;
-}
-.tagline-two .char11 {
-  padding-right: 20px;
-}
-.tagline-two .char12 {
-  padding-right: 15px;
-}
-.tagline-two .char13 {
-  padding-right: 15px;
-}
-.tagline-two .char14 {
-  padding-right: 20px;
-}
-.tagline-two .char15 {
-  padding-right: 20px;
-}
-.tagline-two .char16 {
-  padding-right: 20px;
-}
-.tagline-two .char17 {
-  padding-right: 20px;
-}
-.tagline-two .char18 {
-  padding-right: 20px;
-}
-.tagline-two .char19 {
-  padding-right: 20px;
-}
-.tagline-two .char20 {
-  padding-right: 20px;
-}
-.tagline-two .char21 {
-  padding-right: 10px;
-}
-.tagline-two .char22 {
-  padding-right: 20px;
-}
-.tagline-two .char23 {
-  padding-right: 20px;
-}
-.tagline-two .char24 {
-  padding-right: 20px;
-}
-.tagline-two .char25 {
-  padding-right: 20px;
-}
-.tagline-two .char26 {
-  padding-right: 20px;
-}
-.tagline-two .char27 {
-  padding-right: 20px;
-}
-.tagline-two .char28 {
-  padding-right: 20px;
-}
-.tagline-two .char29 {
-  padding-right: 20px;
+  font-size: 1.6em;
+  letter-spacing: 12px;  
 }
 
 .header {
@@ -260,9 +141,15 @@ footer.page-footer {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.parallax-secondary {
+  min-height: 100px;
+  height: 100px;
+}
+
+.parallax-container .section {
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
