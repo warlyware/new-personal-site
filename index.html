@@ -9,23 +9,25 @@
   <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poiret+One|Comfortaa:400,300|Forum" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="bower_components/sweetalert/dist/sweetalert.css">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
 
   <div id="index-banner" class="parallax-container">
+    <div class="soc-top-wrapper">
+      <a href="https://www.linkedin.com/in/warlyware" target="_blank">
+        <img src="img/linkedin.png" alt="linkedin" class="z-depth-3 circle soc-top">
+      </a>
+      <a href="https://github.com/warlyware" target="_blank">
+        <img src="img/github.png" alt="stackshare" class="z-depth-3 circle soc-top">
+      </a>
+      <a href="https://twitter.com/warlyware" target="_blank">
+        <img src="img/twitter.png" alt="twitter" class="z-depth-3 circle soc-top">
+      </a> 
+    </div>           
     <div class="section no-pad-bot">
-      <div class="soc-top-wrapper">
-        <a href="https://www.linkedin.com/in/warlyware" target="_blank">
-          <img src="img/linkedin.png" alt="linkedin" class="z-depth-3 circle soc-top">
-        </a>
-        <a href="https://github.com/warlyware" target="_blank">
-          <img src="img/github.png" alt="stackshare" class="z-depth-3 circle soc-top">
-        </a>
-        <a href="https://twitter.com/warlyware" target="_blank">
-          <img src="img/twitter.png" alt="twitter" class="z-depth-3 circle soc-top">
-        </a>             
       </div>      
       <div class="container">
         <div class="valign">
@@ -47,7 +49,6 @@
         </div>
 
       </div>
-    </div>
     <div class="parallax"><img src="img/sky3_compressed.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
@@ -111,16 +112,86 @@
     <div class="parallax"><img src="img/sky3_compressed.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m4">
+          
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/cloud_sm.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Hash Cloud</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4 right">x</i></span>
+              <p>A single page app that creates word clouds from trending twitter hashtags</p>
+              <p class="techs">
+                <span>Express</span>
+                <span>Angular</span>
+                <span>Express</span>
+                <span>Materialize</span>
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col s12 m4">
+
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/calc_sm.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">jQuery Calculator</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4 right">x</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col s12 m4">
+
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/hanoi_sm.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Towers of Hanoi</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4 right">x</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>        
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="parallax-container parallax-secondary valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="parallax"><img src="img/sky3_compressed.jpg" alt="Unsplashed background img 3"></div>
+    </div>
+  </div>
+
   <div class="container">
     <div class="section">
       <div class="row">
         <div class="col s12 center">
-          <div id="contact-me" class="section scrollspy">
           </div>
         </div>
-        <div class="col s12 offset-m1 m10 offset-l2 l8">
+        <div class="col s12 m12 offset-l1 l10">
           <div class="card-panel grey lighten-4 z-depth-1">
             <div class="row">
+              <div id="contact-me" class="section scrollspy">
               <div class="col s12 m4 l4">
                 <div class="valign-wrapper">
                   <img src="img/w_main.png" alt="" class="circle responsive-img valign">
@@ -136,6 +207,38 @@
                 </span>
               </div>
             </div>
+          </div>
+        </div>
+        <br>
+        <div class="col s12 offset-m1 m10">
+          <div class="card-panel grey lighten-4 z-depth-1">
+            <form id="contact_form">
+              <!-- Text input-->
+                <div class="input-field">
+                  <input id="name" name="name" type="text" required="">
+                  <label for="name">Your Name</label>
+                </div>
+
+              <!-- Text input-->
+              <div class="input-field">
+                <input id="email" name="email" type="text" required="">
+                <label for="email">Your Email Address</label>  
+              </div>
+
+              <!-- Textarea -->
+              <div class="input-field">
+                <label for="msg">Message</label>             
+                  <textarea class="materialize-textarea" id="msg" name="msg" cols="6" rows="6"></textarea>
+              </div>
+
+              <!-- Button -->
+              <div>
+                <label for="submit"></label>
+                <div class="row center">
+                  <button id="submit" name="submit" class="btn waves-effect waves-block waves-light center">Send Message</button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -188,7 +291,7 @@
     <!-- </div> -->
     <div class="footer-copyright">
       <div class="container">
-      Built with <a href="http://materializecss.com">Materialize</a>
+      Built with <a href="http://materializecss.com">Materialize</a>.
       </div>
     </div>
   </footer>
@@ -198,7 +301,8 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="../../js/materialize.js"></script>
   <script src="js/jquery.lettering-0.6.1.min.js"></script>
-  <script src="js/init.js"></script>
+  <script src="bower_components/sweetalert/dist/sweetalert.min.js"></script> 
+  <script src="js/mandrill.js"></script>
   <script src="js/init.js"></script>
 
   </body>

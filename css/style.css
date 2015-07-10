@@ -6,23 +6,26 @@
  * Made By MaterializeCSS.com
  */
 
-
-
 body {
   font-family: 'Poiret One';
   letter-spacing: 2px;
+}
+
+button {
+  background-color: #52B7FF !important;
+  display: inline-block !important;
 }
 
 p {
   line-height: 2rem;
 }
 
-.button-collapse {
-  color: #26a69a;
+.card .card-title {
+  font-size: 20px;
 }
 
 .contact-info {
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 .contact-me {
@@ -48,6 +51,8 @@ p {
 
 .logo {
   width: 100px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .logo-row {
@@ -58,10 +63,13 @@ p {
 .soc-logo {
   cursor: pointer;
   width: 70px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .soc-top {
   margin-left: 15px;
+  margin-top: 10px;
   width: 30px !important;
   float: left;
 }
@@ -91,7 +99,7 @@ footer.page-footer {
 
 .name {
   font-size: 7em;
-  margin-top: 12vh;
+  margin-top: 18%;
 }
 
 .name .char1 {
@@ -177,3 +185,56 @@ footer.page-footer {
 footer.page-footer {
   margin: 0;
 }
+
+/* label color */
+ .input-field label {
+   color: #9E9E9E;
+ }
+ /* label focus color */
+ .input-field input[type=text]:focus + label {
+   color: #9E9E9E;
+ }
+ /* label underline focus color */
+ .input-field input[type=text]:focus {
+   border-bottom: 1px solid #52B7FF;
+   box-shadow: 0 1px 0 0 #52B7FF;
+ }
+ /* valid color */
+ .input-field input[type=text].valid {
+   border-bottom: 1px solid #52B7FF;
+   box-shadow: 0 1px 0 0 #52B7FF;
+ }
+ /* invalid color */
+ .input-field input[type=text].invalid {
+   border-bottom: 1px solid #ee6e73;
+   box-shadow: 0 1px 0 0 #ee6e73;
+ }
+
+
+
+
+
+ /* label focus color */
+ .input-field textarea:focus + label {
+   color: #52B7FF !important;
+ }
+ /* label underline focus color */
+ .input-field textarea:focus {
+   border-bottom: 1px solid #52B7FF !important;
+   box-shadow: 0 1px 0 0 #52B7FF !important;
+ }
+ /* valid color */
+ .input-field textarea.valid {
+   border-bottom: 1px solid #52B7FF !important;
+   box-shadow: 0 1px 0 0 #52B7FF !important;
+ }
+ /* invalid color */
+ .input-field textarea.invalid {
+   border-bottom: 1px solid #ee6e73 !important;
+   box-shadow: 0 1px 0 0 #ee6e73 !important;
+ }
+
+ /* icon prefix focus color */
+ .input-field .prefix.active {
+   color: #52B7FF;
+ }
